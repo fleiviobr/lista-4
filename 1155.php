@@ -8,4 +8,4 @@ for ($i = 1; $i <= 100; $i++) {
 }
 
 echo number_format($soma, 2) . "\n";
-?>
+?> 

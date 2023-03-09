@@ -17,4 +17,4 @@ while ($sum < $b) {
 }
 
 echo $count . "\n";
-?>
+?> 

@@ -9,4 +9,4 @@ for ($i = $n; $i >= 1; $i--) {
 }
 
 echo "$fatorial\n";
-?>
+?> 

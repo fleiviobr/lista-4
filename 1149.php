@@ -1,17 +1,14 @@
 <?php
-// Soma de Inteiros Consecutivos
+// Somando Inteiros Consecutivos
 
-$a = intval(fgets(STDIN));
-$n = intval(fgets(STDIN));
+$input = explode(' ', fgets(STDIN));
 
-while ($n <= 0) {
-  $n = intval(fgets(STDIN));
-}
-
+$n = intval($input[count($input) - 1]);
+$a = intval($input[0]);
 $sum = 0;
-for ($i = $a; $i < $a + $n; $i++) {
-  $sum += $i;
+
+for ($i = 0; $i < $n; $i++) {
+    $sum +=  $a + $i;
 }
 
-echo $sum."\n";
-?> 
+echo "$sum\n";

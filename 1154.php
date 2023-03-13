@@ -17,4 +17,4 @@ while (true) {
 
 $mediaIdades = $somaIdades / $quantidadePessoas;
 echo number_format($mediaIdades, 2) . "\n";
-?> 
+?>  
